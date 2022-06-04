@@ -1,0 +1,9 @@
+{
+  "name": "jest-28",
+  "scripts": {
+    "test": "echo \"testing jest-28\" && jest --version"
+  },
+  "dependencies": {
+    "jest": "^28.1.0"
+  }
+}
