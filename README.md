@@ -26,3 +26,9 @@ Actual:
 "testing jest-28"
 28.1.0
 ```
+
+## Workaround
+
+Use jest programmatically: `node -e "console.log(require('jest').getVersion())"`
+
+See `npm run workaround`

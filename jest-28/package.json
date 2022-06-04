@@ -1,7 +1,8 @@
 {
   "name": "jest-28",
   "scripts": {
-    "test": "echo \"testing jest-28\" && jest --version"
+    "test": "echo \"testing jest-28\" && jest --version",
+    "workaround": "echo \"testing jest-28\" && node -e \"console.log(require('jest').getVersion())\""
   },
   "dependencies": {
     "jest": "^28.1.0"
